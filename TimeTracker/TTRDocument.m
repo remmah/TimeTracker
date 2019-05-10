@@ -65,6 +65,7 @@
                                   selector:@selector(stopwatchLoop:)
                                   userInfo:nil
                                    repeats:YES];
+    [timer setTolerance:0.1];
     [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
 }
 
