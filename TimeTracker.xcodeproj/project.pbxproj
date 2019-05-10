@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A968624F2165E5590045B63F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A968624E2165E5590045B63F /* Images.xcassets */; };
+		B037C36016B04FAC0083DF19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B037C35F16B04FAC0083DF19 /* Cocoa.framework */; };
+		B037C36A16B04FAC0083DF19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B037C36816B04FAC0083DF19 /* InfoPlist.strings */; };
+		B037C36C16B04FAC0083DF19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B037C36B16B04FAC0083DF19 /* main.m */; };
+		B037C37016B04FAC0083DF19 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B037C36E16B04FAC0083DF19 /* Credits.rtf */; };
+		B037C37316B04FAC0083DF19 /* TTRDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B037C37216B04FAC0083DF19 /* TTRDocument.m */; };
+		B037C37616B04FAC0083DF19 /* TTRDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = B037C37416B04FAC0083DF19 /* TTRDocument.xib */; };
+		B037C37916B04FAC0083DF19 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B037C37716B04FAC0083DF19 /* MainMenu.xib */; };
+		B037C38116B0547F0083DF19 /* TTRTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = B037C38016B0547F0083DF19 /* TTRTracker.m */; };
+		B08646FE16B1E4310044A3E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08646FD16B1E4310044A3E6 /* QuartzCore.framework */; };
+		B09E134116B1B4590052A343 /* monofonto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B09E134016B1B4590052A343 /* monofonto.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A968624E2165E5590045B63F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B037C35B16B04FAC0083DF19 /* TimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B037C35F16B04FAC0083DF19 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B037C36216B04FAC0083DF19 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B037C36316B04FAC0083DF19 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B037C36416B04FAC0083DF19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B037C36716B04FAC0083DF19 /* TimeTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeTracker-Info.plist"; sourceTree = "<group>"; };
+		B037C36916B04FAC0083DF19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B037C36B16B04FAC0083DF19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B037C36D16B04FAC0083DF19 /* TimeTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeTracker-Prefix.pch"; sourceTree = "<group>"; };
+		B037C36F16B04FAC0083DF19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B037C37116B04FAC0083DF19 /* TTRDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTRDocument.h; sourceTree = "<group>"; };
+		B037C37216B04FAC0083DF19 /* TTRDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTRDocument.m; sourceTree = "<group>"; };
+		B037C37516B04FAC0083DF19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTRDocument.xib; sourceTree = "<group>"; };
+		B037C37816B04FAC0083DF19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B037C37F16B0547F0083DF19 /* TTRTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRTracker.h; sourceTree = "<group>"; };
+		B037C38016B0547F0083DF19 /* TTRTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRTracker.m; sourceTree = "<group>"; };
+		B08646FD16B1E4310044A3E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B09E134016B1B4590052A343 /* monofonto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = monofonto.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B037C35816B04FAC0083DF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08646FE16B1E4310044A3E6 /* QuartzCore.framework in Frameworks */,
+				B037C36016B04FAC0083DF19 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B037C35016B04FAC0083DF19 = {
+			isa = PBXGroup;
+			children = (
+				B037C36516B04FAC0083DF19 /* TimeTracker */,
+				B037C35E16B04FAC0083DF19 /* Frameworks */,
+				B037C35C16B04FAC0083DF19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B037C35C16B04FAC0083DF19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B037C35B16B04FAC0083DF19 /* TimeTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B037C35E16B04FAC0083DF19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B037C35F16B04FAC0083DF19 /* Cocoa.framework */,
+				B08646FD16B1E4310044A3E6 /* QuartzCore.framework */,
+				B037C36116B04FAC0083DF19 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B037C36116B04FAC0083DF19 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B037C36216B04FAC0083DF19 /* AppKit.framework */,
+				B037C36316B04FAC0083DF19 /* CoreData.framework */,
+				B037C36416B04FAC0083DF19 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B037C36516B04FAC0083DF19 /* TimeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				B037C37116B04FAC0083DF19 /* TTRDocument.h */,
+				B037C37216B04FAC0083DF19 /* TTRDocument.m */,
+				B037C37F16B0547F0083DF19 /* TTRTracker.h */,
+				B037C38016B0547F0083DF19 /* TTRTracker.m */,
+				B037C37416B04FAC0083DF19 /* TTRDocument.xib */,
+				B037C37716B04FAC0083DF19 /* MainMenu.xib */,
+				B09E134016B1B4590052A343 /* monofonto.ttf */,
+				A968624E2165E5590045B63F /* Images.xcassets */,
+				B037C36616B04FAC0083DF19 /* Supporting Files */,
+			);
+			path = TimeTracker;
+			sourceTree = "<group>";
+		};
+		B037C36616B04FAC0083DF19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B037C36716B04FAC0083DF19 /* TimeTracker-Info.plist */,
+				B037C36816B04FAC0083DF19 /* InfoPlist.strings */,
+				B037C36B16B04FAC0083DF19 /* main.m */,
+				B037C36D16B04FAC0083DF19 /* TimeTracker-Prefix.pch */,
+				B037C36E16B04FAC0083DF19 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B037C35A16B04FAC0083DF19 /* TimeTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B037C37C16B04FAC0083DF19 /* Build configuration list for PBXNativeTarget "TimeTracker" */;
+			buildPhases = (
+				B037C35716B04FAC0083DF19 /* Sources */,
+				B037C35816B04FAC0083DF19 /* Frameworks */,
+				B037C35916B04FAC0083DF19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeTracker;
+			productName = TimeTracker;
+			productReference = B037C35B16B04FAC0083DF19 /* TimeTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B037C35216B04FAC0083DF19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TTR;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "";
+			};
+			buildConfigurationList = B037C35516B04FAC0083DF19 /* Build configuration list for PBXProject "TimeTracker" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B037C35016B04FAC0083DF19;
+			productRefGroup = B037C35C16B04FAC0083DF19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B037C35A16B04FAC0083DF19 /* TimeTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B037C35916B04FAC0083DF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A968624F2165E5590045B63F /* Images.xcassets in Resources */,
+				B037C36A16B04FAC0083DF19 /* InfoPlist.strings in Resources */,
+				B037C37016B04FAC0083DF19 /* Credits.rtf in Resources */,
+				B037C37616B04FAC0083DF19 /* TTRDocument.xib in Resources */,
+				B037C37916B04FAC0083DF19 /* MainMenu.xib in Resources */,
+				B09E134116B1B4590052A343 /* monofonto.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B037C35716B04FAC0083DF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B037C36C16B04FAC0083DF19 /* main.m in Sources */,
+				B037C37316B04FAC0083DF19 /* TTRDocument.m in Sources */,
+				B037C38116B0547F0083DF19 /* TTRTracker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B037C36816B04FAC0083DF19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B037C36916B04FAC0083DF19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B037C36E16B04FAC0083DF19 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B037C36F16B04FAC0083DF19 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B037C37416B04FAC0083DF19 /* TTRDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B037C37516B04FAC0083DF19 /* en */,
+			);
+			name = TTRDocument.xib;
+			sourceTree = "<group>";
+		};
+		B037C37716B04FAC0083DF19 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B037C37816B04FAC0083DF19 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B037C37A16B04FAC0083DF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		B037C37B16B04FAC0083DF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		B037C37D16B04FAC0083DF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTracker/TimeTracker-Prefix.pch";
+				INFOPLIST_FILE = "TimeTracker/TimeTracker-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = net.remmah.TimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B037C37E16B04FAC0083DF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTracker/TimeTracker-Prefix.pch";
+				INFOPLIST_FILE = "TimeTracker/TimeTracker-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = net.remmah.TimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B037C35516B04FAC0083DF19 /* Build configuration list for PBXProject "TimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B037C37A16B04FAC0083DF19 /* Debug */,
+				B037C37B16B04FAC0083DF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B037C37C16B04FAC0083DF19 /* Build configuration list for PBXNativeTarget "TimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B037C37D16B04FAC0083DF19 /* Debug */,
+				B037C37E16B04FAC0083DF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B037C35216B04FAC0083DF19 /* Project object */;
+}
